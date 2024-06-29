@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!----------
+Project Name: Modern Portfolio Website
+Description: A complete responsive modern portfolio website design
+             by using HTML CSS and Vanilla JavaScript from scratch.
+Author: Reza Artha Wibawa
+License: MIT License
+Copyright: 2024 ©RezaArts 
+---------->
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reza Arts - CakRAW</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blog-single.css" />
+    <link rel="stylesheet" href="css/skins/color-1.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- Style Switcher -->
+    <link
+      rel="stylesheet"
+      href="css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+
+    <link rel="stylesheet" href="css/style-switcher.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/R.png" />
+  </head>
+
+  <body class="dark">
+    <!-- Main Container Start -->
+    <div class="main-container">
+      <!-- Aside Start -->
+      <div class="aside">
+        <div class="logo">
+          <a href="index.html"><span>R</span>Arts</a>
+        </div>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#blog"><i class="fa-brands fa-readme"></i> Blog</a>
+          </li>
+          <li>
+            <a href="#gallery"><i class="fas fa-camera"></i> Gallery </a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Aside End -->
+      <!-- Main Content Start -->
+      <div class="main-content">
+        <!-- Home Section Start -->
+        <section class="home active section" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, My Name's <span class="name">Reza Artha Wibawa</span>
+                </h3>
+                <h3 class="my-profession">
+                  I'm a <span class="typing"></span>
+                </h3>
+                <p>
+                  I’m an IT enthusiast and food entrepreneur. My expertise spans creating and designing websites, graphic design, IoT engineer, and much more. 
+                  As a food entrepreneur, I develop innovative culinary concepts, manage food production, and oversee marketing strategies to bring unique flavors to the market.
+                </p>
+                <a href="video/motivasi.mp4" class="btn" target="_blank">
+                  This video is for you
+                </a>
+              </div>
+              <div class="home-img padd-15">
+                <img src="images/reza.png" alt="reza" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Home Section End -->
+
+        <!-- About Section Start -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>
+                      I'm Reza Artha Wibawa <span>IT Enthusiast & Food Entrepreneur</span>
+                    </h3>
+                    <p>
+                    
+                      I'm a self-learner, dreamer, and tech-geek passionate about IT and food entrepreneurship. 
+                      My goal is to create websites that excel in both aesthetics and functionality for users and businesses alike.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Birth : <span>Banyuwangi, 20 Maret 2003</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Gender : <span>Male</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City : <span>Bogor, Jawa Barat</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Occupation : <span>Software Engineer</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a href="#contact" class="btn hire-me">Contact Me</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skills-item padd-15">
+                        <h5>HTML/CSS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 95%"></div>
+                          <div class="skill-percent">95%</div>
+                        </div>
+                      </div>
+                      <div class="skills-item padd-15">
+                        <h5>JavaScript</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 75%"></div>
+                          <div class="skill-percent">80%</div>
+                        </div>
+                      </div>
+                      <div class="skills-item padd-15">
+                        <h5>PHP/Laravel</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 80%"></div>
+                          <div class="skill-percent">80%</div>
+                        </div>
+                      </div>
+                      <div class="skills-item padd-15">
+                        <h5>Wordpress</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 80%"></div>
+                          <div class="skill-percent">80%</div>
+                        </div>
+                      </div>
+                      <div class="skills-item padd-15">
+                        <h5>IoT (Internet of Things)</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 70%"></div>
+                          <div class="skill-percent">85%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <!-- Bagian Education -->
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>
+                
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- Timeline item 1 -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <img src="images/finkom.png" width="50px" height="50px" alt="Logo">
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2021 - Present
+                          </h3>
+                          <h4 class="timeline-title">
+                            Universitas Binaniaga
+                          </h4>
+                          <p class="timeline-text">
+                            I am currently pursuing a Bachelor's degree in Computer Science.
+                          </p>
+                          <!-- Logo instansi pendidikan -->
+                        </div>
+                
+                        <!-- Timeline item 2 -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <img src="images/sman2.png" width="50px" height="50px" alt="Logo">
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2018 - 2021
+                          </h3>
+                          <h4 class="timeline-title">
+                            SMA NEGERI 2 KOTA BOGOR
+                          </h4>
+                          <p class="timeline-text">
+                            Graduated from high school majoring in science.
+                          </p>
+                          <!-- Logo instansi pendidikan -->
+                        </div>
+                
+                        <!-- Timeline item 3 -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <img src="images/smpn20.png" width="50px" height="50px" alt="Logo">
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2015 - 2018
+                          </h3>
+                          <h4 class="timeline-title">
+                            SMP NEGERI 20 KOTA BOGOR
+                          </h4>
+                          <p class="timeline-text">
+                            Graduated from junior high school.
+                          </p>
+                          <!-- Logo instansi pendidikan -->
+                        </div>
+                
+                        <!-- Timeline item 4 -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <img src="images/polsat.png" width="50px" height="50px" alt="Logo">
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2010 - 2015
+                          </h3>
+                          <h4 class="timeline-title">
+                            SD NEGERI POLISI 1 BOGOR
+                          </h4>
+                          <p class="timeline-text">
+                            Graduated from bilingual elementary school.
+                          </p>
+                          <!-- Logo instansi pendidikan -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <!-- Bagian Experience -->
+                  <div class="experience padd-15">
+                    <h3 class="title">Experience</h3>
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- Timeline item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <img src="images/mitratek.png" width="50px" height="50px" alt="Logo">
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2024 - Present
+                          </h3>
+                          <h4 class="timeline-title">
+                           Mitra Teknologi Sejati
+                          </h4>
+                          <p class="timeline-text">
+                          
+                            Experienced in creating dynamic and responsive websites.
+                            Specialized in delivering high-quality, user-friendly projects.
+                          </p>
+                        </div>
+                        <!-- Timeline item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <img src="images/jt.png" width="50px" height="50px" alt="Logo">
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2020 - Present
+                          </h3>
+                          <h4 class="timeline-title">
+                            Jebeng Thulik Pecel Banyuwangi
+                          </h4>
+                          <p class="timeline-text">
+                            As the owner of UMKM Jebeng Thulik Pecel Banyuwangi,
+                            we focus on food production and service.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+        </section>
+        <!-- About Section End -->
+
+      
+        <!-- Blog Section Start -->
+        <section class="blog section" id="blog">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Blog</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="blog-heading padd-15">
+                <h2>My Recent Blogs :</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Blog item -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner">
+                  <div class="image">
+                    <img src="images/blog/bk.PNG" alt="" />
+                  </div>
+                  <div class="blog-info">
+                    <div class="category">
+                      <a href="#">
+                        <p>
+                          <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                          Category 01
+                        </p>
+                      </a>
+                    </div>
+                    <div class="date">
+                      <p>
+                        <i class="fa-solid fa-calendar-days"></i> 2 Maret, 2024
+                      </p>
+                    </div>
+                  </div>
+                  <a href="blog-single.html">
+                    <h4>Aplikasi BK - Laravel 10</h4>
+                  </a>
+                  <p>
+                    Aplikasi bimbingan konseling sekolah adalah perangkat lunak inovatif 
+                    yang dirancang untuk mendukung proses bimbingan dan konseling di lingkungan pendidikan. Aplikasi ini memungkinkan konselor untuk...
+                  </p>
+                  <a href="blog-single.html">Read More...</a>
+                </div>
+              </div>
+              <!-- Blog item -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner">
+                  <div class="image">
+                    <img src="images/blog/dscs.png" alt="" />
+                  </div>
+                  <div class="blog-info">
+                    <div class="category">
+                      <a href="#">
+                        <p>
+                          <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                          Category 02
+                        </p>
+                      </a>
+                    </div>
+                    <div class="date">
+                      <p>
+                        <i class="fa-solid fa-calendar-days"></i> 28 April, 2024
+                      </p>
+                    </div>
+                  </div>
+                  <a href="blog-second.html">
+                    <h4>Digital School Collaboration System</h4>
+                  </a>
+                  <p>
+                    Sistem kolaborasi sekolah digital mengacu pada platform atau sistem yang memungkinkan
+                     sekolah, guru, siswa, dan orang tua untuk bekerja sama secara efektif...
+                  </p>
+                  <a href="blog-second.html">Read More...</a>
+                </div>
+              </div>
+              <!-- Blog item -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner">
+                  <div class="image">
+                    <img src="images/blog/nextcloud.png" alt="" />
+                  </div>
+                  <div class="blog-info">
+                    <div class="category">
+                      <a href="blog-third.html">
+                        <p>
+                          <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                          Category 03
+                        </p>
+                      </a>
+                    </div>
+                    <div class="date">
+                      <p>
+                        <i class="fa-solid fa-calendar-days"></i> 27 Juni, 2024
+                      </p>
+                    </div>
+                  </div>
+                  <a href="blog-third.html">
+                    <h4>Nextcloud and Collaboration Solution</h4>
+                  </a>
+                  <p>
+                    Dunia digital yang terus berkembang, manajemen data yang efisien dan aman, serta kolaborasi
+                    yang mulus adalan aspek penting bagi individu dan organisasi...
+                  </p>
+                  <a href="blog-third.html">Read More...</a>
+                </div>
+              </div>
+              <!-- Blog item -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner">
+                  <div class="image">
+                    <img src="images/blog/ai.png" alt="" />
+                  </div>
+                  <div class="blog-info">
+                    <div class="category">
+                      <a href="blog-fourth.html">
+                        <p>
+                          <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                          Category 04
+                        </p>
+                      </a>
+                    </div>
+                    <div class="date">
+                      <p>
+                        <i class="fa-solid fa-calendar-days"></i> 27 Juni, 2024
+                      </p>
+                    </div>
+                  </div>
+                  <a href="blog-fourth.html">
+                    <h4>Artificial Intelligence - Friend or Foe?</h4>
+                  </a>
+                  <p>
+                    Artificial Intelligence (AI) adalah bidang teknologi yang memukau dan penuh potensi, 
+                    di mana mesin dan komputer diberdayakan untuk...
+                  </p>
+                  <a href="blog-fourth.html">Read More...</a>
+                </div>
+              </div>
+              <!-- Blog item -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner">
+                  <div class="image">
+                    <img src="images/blog/perpus.png" alt="" />
+                  </div>
+                  <div class="blog-info">
+                    <div class="category">
+                      <a href="blog-fifth.html">
+                        <p>
+                          <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                          Category 05
+                        </p>
+                      </a>
+                    </div>
+                    <div class="date">
+                      <p>
+                        <i class="fa-solid fa-calendar-days"></i> 27 Juni, 2024
+                      </p>
+                    </div>
+                  </div>
+                  <a href="blog-fifth.html">
+                    <h4>Aplikasi Perpustakaan Hybrid</h4>
+                  </a>
+                  <p>
+                    Perpustakaan Hybrid adalah perpustakaan yang dirancang agar mampu memberikan layanan menejemen perpustakaan konvensional...          
+                   </p>
+                  <a href="blog-fifth.html">Read More...</a>
+                </div>
+              </div>
+              <!-- Blog item -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner">
+                  <div class="image">
+                    <img src="images/blog/proxmox.png" alt="" />
+                  </div>
+                  <div class="blog-info">
+                    <div class="category">
+                      <a href="blog-sixth.html">
+                        <p>
+                          <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                          Category 06
+                        </p>
+                      </a>
+                    </div>
+                    <div class="date">
+                      <p>
+                        <i class="fa-solid fa-calendar-days"></i> 27 Juni, 2024
+                      </p>
+                    </div>
+                  </div>
+                  <a href="blog-sixth.html">
+                    <h4>Proxmox Virtual Environment - Apa itu proxmox ve?</h4>
+                  </a>
+                  <p>
+                    Proxmox adalah solusi virtualisasi open-source yang powerful, 
+                    ideal untuk mengelola infrastruktur IT yang kompleks... 
+                  </p>
+                  <a href="blog-sixth.html">Read More...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Blog Section End -->
+
+       
+<!-- Gallery Section Start -->
+<section class="blog section" id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="section-title padd-15">
+        <h2>Gallery</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="blog-heading padd-15">
+        <h2>My Recent Galleries :</h2>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Blog item -->
+      <div class="blog-item padd-15">
+        <div class="blog-item-inner">
+          <div class="image">
+            <img src="images/gallery/pict01.png" alt="" />
+          </div>
+          <div class="blog-info">
+            <div class="category">
+              <a href="#">
+                <p>
+                  <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                  Gallery 01
+                </p>
+              </a>
+            </div>
+            <div class="date">
+              <p>
+                <i class="fa-solid fa-calendar-days"></i> 20 Desember, 2021
+              </p>
+            </div>
+          </div>
+          <a href="#">
+            <h4>Two Men Displaying a Portrait of Dr. Zakir Naik</h4>
+          </a>
+        </div>
+      </div>
+
+      <!-- Blog item -->
+      <div class="blog-item padd-15">
+        <div class="blog-item-inner">
+          <div class="image">
+            <img src="images/gallery/pict02.png" alt="" />
+          </div>
+          <div class="blog-info">
+            <div class="category">
+              <a href="#">
+                <p>
+                  <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                  Gallery 02
+                </p>
+              </a>
+            </div>
+            <div class="date">
+              <p>
+                <i class="fa-solid fa-calendar-days"></i> 3 April, 2024
+              </p>
+            </div>
+          </div>
+          <a href="#">
+            <h4>Iftar with the IT team from Mitratek in Gresik, East Java</h4>
+          </a>
+        </div>
+      </div>
+
+      <!-- Blog item -->
+      <div class="blog-item padd-15">
+        <div class="blog-item-inner">
+          <div class="image">
+            <img src="images/gallery/pict03.png" alt="" />
+          </div>
+          <div class="blog-info">
+            <div class="category">
+              <a href="#">
+                <p>
+                  <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                  Gallery 03
+                </p>
+              </a>
+            </div>
+            <div class="date">
+              <p>
+                <i class="fa-solid fa-calendar-days"></i> 10 Maret, 2024
+              </p>
+            </div>
+          </div>
+          <a href="#">
+            <h4>Camping in Alas Pacet, Mojokerto, East Java</h4>
+          </a>
+        </div>
+      </div>
+
+      <!-- Additional Gallery Items -->
+      
+      <!-- Gallery 04 -->
+      <div class="blog-item padd-15">
+        <div class="blog-item-inner">
+          <div class="image">
+            <img src="images/gallery/pict04.png" alt="" />
+          </div>
+          <div class="blog-info">
+            <div class="category">
+              <a href="#">
+                <p>
+                  <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                  Gallery 04
+                </p>
+              </a>
+            </div>
+            <div class="date">
+              <p>
+                <i class="fa-solid fa-calendar-days"></i> 12 Januari, 2024
+              </p>
+            </div>
+          </div>
+          <a href="#">
+            <h4>IoT system for measuring water pH</h4>
+          </a>
+        </div>
+      </div>
+
+      <!-- Gallery 05 -->
+      <div class="blog-item padd-15">
+        <div class="blog-item-inner">
+          <div class="image">
+            <img src="images/gallery/pict05.png" alt="" />
+          </div>
+          <div class="blog-info">
+            <div class="category">
+              <a href="#">
+                <p>
+                  <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                  Gallery 05
+                </p>
+              </a>
+            </div>
+            <div class="date">
+              <p>
+                <i class="fa-solid fa-calendar-days"></i> 23 Oktober, 2024
+              </p>
+            </div>
+          </div>
+          <a href="#">
+            <h4>IoT system for motion detection integrated with Telegram</h4>
+          </a>
+        </div>
+      </div>
+
+      <!-- Gallery 06 -->
+      <div class="blog-item padd-15">
+        <div class="blog-item-inner">
+          <div class="image">
+            <img src="images/gallery/pict06.png" alt="" />
+          </div>
+          <div class="blog-info">
+            <div class="category">
+              <a href="#">
+                <p>
+                  <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                  Gallery 06
+                </p>
+              </a>
+            </div>
+            <div class="date">
+              <p>
+                <i class="fa-solid fa-calendar-days"></i>24 Juni, 2024
+              </p>
+            </div>
+          </div>
+          <a href="#">
+            <h4>Developing software application</h4>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Gallery Section End -->
+
+
+
+
+        <!-- Contact Section Start -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">Do You Have Any Questions?</h3>
+            <br>
+            <div class="row">
+              <!-- Contact info item-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Phone</h4>
+                <p>+62817832003</p>
+              </div>
+              <!-- Contact info item-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Office</h4>
+                <p>Bogor</p>
+              </div>
+              <!-- Contact info item-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>rezaartha03@gmail.com</p>
+              </div>
+              <!-- Contact info item-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Website</h4>
+                <p>www.sekolahdigital.id</p>
+              </div>
+            </div>
+        
+        </section>
+        <!-- Contact Section End -->
+      </div>
+      <!-- Main Content End -->
+    </div>
+    <!-- Main Container End -->
+    <!-- Style Switcher Start -->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <!-- Style Switcher End -->
+    <!-- Custom JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+  </body>
+</html>
