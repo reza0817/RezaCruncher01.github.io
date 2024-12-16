@@ -12,8 +12,8 @@ Copyright: 2023 ©MdRasen
 var typed = new Typed(".typing", {
   strings: [
     "",
-    "Web Developer",
-    "IoT Developer",
+    "Software Engineer",
+    "IoT Engineer",
     "Food Entrepreneur",
   ],
   typeSpeed: 100,
